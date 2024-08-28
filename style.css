@@ -699,7 +699,7 @@
 /*--------------------MEDIA QUERY RESPONSIVE SITE------------------------------------*/
 /*--------------------MEDIA QUERY RESPONSIVE SITE------------------------------------*/
 /*--------------------MEDIA QUERY RESPONSIVE SITE------------------------------------*/
-@media(width<=320px)
+@media(min-width:0) and (max-width:320px)
 {
 
     * {
@@ -4798,6 +4798,7 @@
     .products_tittle
     {
         background: var(--background-gradient-two);
+        margin: 50px auto;
     }
     #tittle
     {
